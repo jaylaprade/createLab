@@ -1,6 +1,6 @@
 # Scripts for managing CS class labs
 
-createLab.sh: This is a simple script for creating labs from a simple
+**createLab.sh**: This is a simple script for creating labs from a simple
  template. It does the following:
 -  Creates a directory for the labname
 -  Copies your template files into the directory
@@ -28,7 +28,7 @@ The script has a few problems:
 -  The editing of the template piece only works with cpp and h files.
 
 
-Other notes:
+**Other notes:**
 
 You'll note that I said "Scripts".  My intention is to create two more 
  scripts in this repo to do the following:
