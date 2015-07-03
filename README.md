@@ -9,8 +9,8 @@ createLab.sh: This is a simple script for creating labs from a simple
 -  Push the initial template to the BitBuck repo
 
 Please make sure the following is installed:
--git
--bitbucket-cli
+- git
+- bitbucket-cli
 
 You should be able to install the above with:
 -  apt-get install git
