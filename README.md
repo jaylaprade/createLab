@@ -9,15 +9,15 @@ createLab.sh: This is a simple script for creating labs from a simple
 -  Push the initial template to the BitBuck repo
 
 Please make sure the following is installed:
-git
-bitbucket-cli
+-git
+-bitbucket-cli
 
 You should be able to install the above with:
-  apt-get install git
+-  apt-get install git
 or
-  yum install git
+-  yum install git
 and
-  pip install bitbucket-cli
+-  pip install bitbucket-cli
 
 The script has a few problems:
 -  Little to no error checking
