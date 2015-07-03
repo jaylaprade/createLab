@@ -33,13 +33,13 @@ The script has a few problems:
 You'll note that I said "Scripts".  My intention is to create two more 
  scripts in this repo to do the following:
 - Package a Lab by:
-----   Setting up the zip file correctly
-----   Verifying that only the correct files are included
-----   Performing any rudementary checking
+  -   Setting up the zip file correctly
+  -   Verifying that only the correct files are included
+  -   Performing any rudementary checking
 - Create a Homework assignment:
-----   Get name and assignment number
-----   Upload to Google docs
+  -   Get name and assignment number
+  -   Upload to Google docs
 - Package a Homework assignment:
-----   Download from Google docs
-----   Name correctly
-----   Give user a path to upload file from
+  -   Download from Google docs
+  -   Name correctly
+  -   Give user a path to upload file from
