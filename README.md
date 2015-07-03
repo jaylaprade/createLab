@@ -25,7 +25,7 @@ The script has a few problems:
 -  The Make file isn't edited correctly
 -  Using the "source" command which is insecure
 -  The template editing is garbage but works for these first projects
--  The entire template piece only works with cpp and h files.
+-  The editing of the template piece only works with cpp and h files.
 
 
 Other notes:
