@@ -1,10 +1,10 @@
 # Scripts for managing CS class labs
 
-createLab.sh
-
-This is a simple script for creating labs from a simple template. It
- also does the following:
--  Create a git repo in the directory
+createLab.sh: This is a simple script for creating labs from a simple
+ template. It does the following:
+-  Creates a directory for the labname
+-  Copies your template files into the directory
+-  Creates a git repo in the directory
 -  Create a private BitBucket repo
 -  Push the initial template to the BitBuck repo
 
@@ -20,6 +20,7 @@ and
   pip install bitbucket-cli
 
 The script has a few problems:
+-  Little to no error checking
 -  No checking to see if git, or bitbucket-cli are installed
 -  The Make file isn't edited correctly
 -  Using the "source" command which is insecure
