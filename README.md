@@ -13,10 +13,7 @@ Please make sure the following is installed:
 - bitbucket-cli
 
 You should be able to install the above with:
--  apt-get install git
-or
--  yum install git
-and
+-  *apt-get install git* or *yum install git*
 -  pip install bitbucket-cli
 
 The script has a few problems:
@@ -30,7 +27,7 @@ The script has a few problems:
 
 **Other notes:**
 
-You'll note that I said "Scripts".  My intention is to create two more 
+You'll note that I said "Scripts".  My intention is to create a few more 
  scripts in this repo to do the following:
 - Package a Lab by:
   -   Setting up the zip file correctly
