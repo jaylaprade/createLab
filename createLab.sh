@@ -47,7 +47,7 @@ function renameTemplate
 {
 	mv "$PROJECT/name.cpp" "$PROJECT/$MAIN.cpp"
 	mv "$PROJECT/name.h" "$PROJECT/$MAIN.h"
-	sed -i 's/name/$MAIN/g' "$PROJECT/Makefile"
+	sed -i "s/name/$MAIN/g" "$PROJECT/Makefile"
 }
 
 function gitInit
